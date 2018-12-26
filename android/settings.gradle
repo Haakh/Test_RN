@@ -1,0 +1,7 @@
+rootProject.name = 'react_native_test_project'
+include ':@segment_analytics-react-native-amplitude'
+project(':@segment_analytics-react-native-amplitude').projectDir = new File(rootProject.projectDir, '../node_modules/@segment/analytics-react-native-amplitude/android')
+include ':@segment_analytics-react-native'
+project(':@segment_analytics-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/@segment/analytics-react-native/android')
+
+include ':app'
