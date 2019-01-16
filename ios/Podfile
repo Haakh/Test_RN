@@ -7,4 +7,6 @@ target 'react_native_test_project' do
 
   # Pods for react_native_test_project
 
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
 end
